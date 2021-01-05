@@ -10,7 +10,6 @@ namespace TechJobsPersistent.Migrations
     [DbContext(typeof(JobDbContext))]
     [Migration("20201217040102_InitialMigration")]
     partial class InitialMigration
-    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

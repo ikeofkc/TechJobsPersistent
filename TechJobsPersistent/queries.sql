@@ -3,7 +3,7 @@
 SELECT COLUMN_NAME, DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_SCHEMA = 'techjobs'
-AND TABLE_NAME = 'Jobs';
+  AND TABLE_NAME = 'Jobs';
 --OR
 DESCRIBE Jobs;
 --OR
@@ -20,5 +20,5 @@ WHERE Location = "St. Louis City";
 
 SELECT Name, Description
 FROM Skills
-INNER JOIN JobSkills ON Skills.Id = JobSkills.SkillId
+         INNER JOIN JobSkills ON Skills.Id = JobSkills.SkillId
 ORDER BY Name ASC;

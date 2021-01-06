@@ -2,7 +2,7 @@
 
 namespace TechJobsPersistent.Migrations
 {
-    public partial class secondMigration : Migration
+    public partial class InitialMigrationNew : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

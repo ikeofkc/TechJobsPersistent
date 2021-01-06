@@ -14,7 +14,7 @@ SHOW COLUMNS FROM techjobs.jobs;
 
 SELECT Names
 FROM Employers
-WHERE Location = "St. Louis City";
+WHERE Location = "Kansas City";
 
 --Part 3
 
